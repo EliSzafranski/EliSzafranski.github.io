@@ -1,0 +1,80 @@
+/*
+#FF6700 : SAFTEY ORANGE
+#EBEBEB : PLATNINUM
+#C0C0C0 : SILVER
+#3A6EA5 : QUEEN BLUE
+#004E98 : YALE BLUE
+*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #437C90;
+    color: #F7FFF7;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width:375px;
+}
+.projects a {
+    display: inline-block;
+    background: #EBEBEB;
+    border-radius: 4px;
+    padding: 3px;
+    margin: 0;
+    color: white;
+}
+
+.projects {
+    background: #3A6EA5;
+}
+.projects .btn{
+    color:#DC0037;
+    background: #FF6700;
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.projects .btn:hover {
+    background: rgba(0,78,152, 95%);
+    color: white;
+}
+
+.project-item {
+    overflow: hidden;
+    padding: 15px;
+}
+
+
+.content-wrap {
+    max-width:800px;
+    width:85%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+@media screen and (min-width:750px){
+    header {
+        text-align: center;
+    }
+    .project-item img {
+        float: left;
+        margin-right: 20px;
+    }
+
+    .project-item
+}

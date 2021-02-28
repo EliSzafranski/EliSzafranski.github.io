@@ -2,11 +2,36 @@
 <html>
     <head>
         <title>Eli's Webpage</title>
+        <link rel="stylesheet" href="css/main-styles.css">
     </head>
 <body>
-    <h1>Welcome to a temp webpage</h1>
-    <p>This is a temporary webpage for Eli's CS355 class.</p>
-    <p><a href="projects/html/weather-app.html">Click here to go to the weather-app</a></p>
-    <p><a href="LL3/aboutme.html">A personal portfolio website mockup based on LinkedIn Learning CSS Essentials Course</a></p>
+    <main>
+        <header>
+            <div class="content-wrap">
+                <h1>Eli Szafranski</h1>
+                <h2>CS355</h2>
+            </div>
+        </header>
+
+<!----*********** Projects Section ***********--->
+        <section class="projects">
+            <div class="content-wrap">
+
+                <div class="project-item">
+                    <img src="images/weather-app.png" alt="picture of current weatherapp iteration">
+                    <p>A weather-app (work in progress)</p>
+                    <a class="btn" href="projects/html/weather-app.html">Click Here</a>
+                </div>
+
+                <div class="project-item">
+                    <img src="images/portfolio-website.png" alt="picture of current portfolio website">
+                    <p>A personal portfolio website mockup based on LinkedIn Learning CSS Essentials Course</p>
+                    <a class="btn" href="LL3/aboutme.html">Click Here</a>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
 </body>
 </html>
